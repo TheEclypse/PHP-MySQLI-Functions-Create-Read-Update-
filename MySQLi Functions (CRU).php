@@ -2,9 +2,9 @@
 function  MySQLSelect($Items)
 {
     $servername = "localhost";
-    $username = "ibrahim";
-    $password = "1234";
-    $dbname = "Website";
+    $username = "{Your Username}";
+    $password = "{Your Password}";
+    $dbname = "{Your Database}";
 
     $conn = new mysqli($servername, $username, $password, $dbname);
 
@@ -49,9 +49,9 @@ function MySQLSelectCheck($table, $username, $column)
 function MySQLInsert($tablename, $columns, $Items): false | int
 {
     $servername = "localhost";
-    $username = "ibrahim";
-    $password = "1234";
-    $dbname = "Website";
+    $username = "{Your Username}";
+    $password = "{Your Password}";
+    $dbname = "{Your Database}";
 
     $conn = new mysqli($servername, $username, $password, $dbname);
 
@@ -112,9 +112,9 @@ function MySQLInsertCheck($table, $username, $firstname, $lastname, $password, $
 function MySQLUpdate($tableName, $SetColumns, $WhereColumn, $SetValues, $WhereValues)
 {
     $servername = "localhost";
-    $username = "ibrahim";
-    $password = "1234";
-    $dbname = "Website";
+    $username = "{Your Username}";
+    $password = "{Your Password}";
+    $dbname = "{Your Database}";
 
     $conn = new mysqli($servername, $username, $password, $dbname);
 
